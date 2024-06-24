@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Developer\HBweb\public\css\signup.css">
+    <link rel="icon" type="image/x-icon" href="C:\Developer\HBweb\public\assets\icon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script src="C:\Developer\HBweb\scripts\signup_logic.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <a href="index.html" class="logo"> <img src="C:\Developer\HBweb\public\assets\2.png" class="logoheader"> </a>
+        <div class="navbar">
+            <a href="employee.html" id="navbar1"> Meet the team </a>
+            <a href="opportunity.html" id="navbar1"> Opportunities </a>
+            <a href="aboutus.html" id="navbar1"> About Us </a>
+            <a href="login.html" class="login">SIGN IN</a>
+        </div>
+    </div>
+
+<div class="body-container">
+    <div class="form-housing">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="first-name">First Name <span id="redstar">*</span></label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name <span id="redstar">*</span></label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address <span id="redstar">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <span id="redstar">*</span></label>
+                        <input type="string" id="password" name="password" placeholder="Password" required>
+                    </div>
+                <div class="form-group">
+                        <label for="interest"> How did you hear about us? <span id="redstar">*</span></label>
+                        <select id="interest" name="interest" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Friend">Friend</option>
+                            <option value="Social Media">Social Media </option>
+                            <option value="Other">Other...</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button id="create_acc" type="submit">Create Account</button>
+
+                        <a href="login.html" id="login_click"> Sign in to your account now! </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>  
+</div>
+
+</body>
+
+
+</html>

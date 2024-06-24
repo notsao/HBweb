@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Developer\HBweb\public\css\login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="icon" type="image/x-icon" href="C:\Developer\HBweb\public\assets\icon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <script src="C:\Developer\HBweb\scripts\login.js"></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <a href="index.html" class="logo"> <img src="C:\Developer\HBweb\public\assets\2.png" class="logoheader"> </a>
+        <div class="navbar">
+            <a href="employee.html" id="navbar1"> Meet the team </a>
+            <a href="opportunity.html" id="navbar1"> Opportunities </a>
+            <a href="aboutus.html" id="navbar1"> About Us </a>
+            <a href="login.html" class="login">SIGN IN</a>
+        </div>
+    </div>
+
+<div class="body-container">
+    <div class="form-housing">
+        <div class="form-container">
+            <h2>Sign in</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="email">Email Address <span id="redstar">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <span id="redstar">*</span></label>
+                        <input type="string" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <button id="login" type="submit">Sign in</button>
+                    </div>
+                    <a href="signup.html" class="signup_click"> Dont have an account, create one now! </a>
+                    <p id="client_error" style="display: none;"> <i class="fa-solid fa-circle-exclamation"></i> Sorry, your credentials are either invalid or non-existant!</p>
+                </form>
+            </div>
+        </div>
+    </div>  
+</div>
+
+</body>
+</html>
